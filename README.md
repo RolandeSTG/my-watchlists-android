@@ -22,7 +22,7 @@ Finally, user may configure the location of the services using the app's `settin
 This app makes use of all endpoints defined by the two services' API.
    
 ### Demo & Screenshots
-- Watch: [Live Demo](https://github.com/RolandeSTG/my-watchlists-android/assets/112976983/b260e69d-dea3-482d-981b-0a4088ec5483)
+- Watch: [Live Demo](https://github.com/RolandeSTG/my-watchlists-android/assets/112976983/273bf123-745b-4ad3-ae04-cf05c0be6314)
 
 
 - Sample Screenshots: 
