@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyWatchlists" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MyWatchlists" parent="Base.Theme.MyWatchlists">
+        <item name="preferenceTheme">@style/MySettingsTheme</item>
+    </style>
+
+    <!-- Customize the Preference Category Title, as default settings make it very small and hard to distinguish -->
+    <style name="MySettingsTheme" parent="@style/PreferenceThemeOverlay">
+        <!--item name="preferenceCategoryTitleTextColor">?android:attr/colorAccent</item-->
+        <item name="preferenceCategoryTitleTextColor">@color/bright_orange</item>
+        <!--item name="preferenceCategoryTitleTextAppearance">@style/TextAppearance.AppCompat.Body2</item-->
+        <item name="preferenceCategoryTitleTextAppearance">@style/MyPrefCategoryTitleTextAppearance</item>
+    </style>
+
+    <style name="MyPrefCategoryTitleTextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFeatureSettings">smcp</item>
+    </style>
+
+</resources>

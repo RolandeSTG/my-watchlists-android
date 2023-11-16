@@ -1,0 +1,101 @@
+<resources>
+    <!-- Main Activity Labels -->
+
+    <string name="app_name">My Watchlists</string>
+    <string name="mobile_app_picture">Mobile App Picture</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="existing_watchlists">Existing watchlists:</string>
+    <string name="name">Name</string>
+    <string name="created">Created</string>
+    <string name="add_list_description">Add a list</string>
+    <string name="rename">Rename</string>
+    <string name="delete_list_description">Delete this list</string>
+
+    <string name="add_watchlist_title">Add watchlist</string>
+    <string name="add_watchlist_hint">My new list\'s name</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Settings Activity Labels -->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Settings Options Menu Labels -->
+    <string name="menu_title_settings">Settings</string>
+
+    <!-- Settings Fragment -->
+    <string name="field_cannot_be_blank">Field cannot be blank</string>
+    <string name="improper_ip_address_format">Improper IP Address format</string>
+
+    <!-- Settings: Shared Preferences Keys & Default Values -->
+    <string name="watchlist_api_ip_key">watchlist-api-ip</string>
+    <string name="watchlist_api_port_key">watchlist-api-port</string>
+    <string name="quote_api_ip_key">quote-api-ip</string>
+    <string name="quote_api_port_key">quote-api-port</string>
+
+    <string name="watchlist_api_ip_default">192.168.1.146</string>
+    <string name="watchlist_api_port_default">8080</string>
+    <string name="quote_api_ip_default">192.168.1.146</string>
+    <string name="quote_api_port_default">8500</string>
+
+    <!-- Settings: Preference Category Titles -->
+    <string name="watchlist_api_cat_title">Watchlist Service API</string>
+    <string name="quote_api_cat_title">Quote Service API</string>
+
+    <!-- Settings: Watchlist API Preferences -->
+    <string name="ip_address_title">IP Address</string>
+    <string name="port_title">Port</string>
+    <string name="watchlist_ip_address_dialog_title">Enter Watchlist Service IP Address</string>
+    <string name="watchlist_port_dialog_title">Enter Watchlist Service Port</string>
+
+    <!-- Settings: Quote API Preferences -->
+    <!-- Using same 'ip_address_title' and 'port_title" defined for Watchlist API -->
+    <string name="quote_ip_address_dialog_title">Enter Quote Service IP Address</string>
+    <string name="quote_port_dialog_title">Enter Quote Service Port</string>
+
+    <!-- Security Fragment -->
+    <string name="add_symbol">Add Symbol</string>
+    <string name="defined_symbols">AAPL, AMZN, BABA, GOOG, META, MSFT, NFLX, NVDA, SHOP, TSLA, ZM</string>
+    <string name="add_symbol_hint">New Symbol</string>
+
+    <!-- Security Header Labels -->
+    <string name="number">No.</string>
+    <string name="symbol">Symbol</string>
+    <string name="price">Price</string>
+    <string name="change">Change</string>
+    <string name="percent_change">Chg %</string>
+
+    <!-- Security Adapter -->
+    <string name="onclick_msg">Swipe left to delete</string>
+
+    <!-- Watchlist Adapter -->
+    <string name="rename_list">Rename watchlist</string>
+    <string name="delete_list">Delete list</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <!-- QuoteClient -->
+    <string name="error_msg_quote_api">** Error getting quote from API - Verify Settings</string>
+
+
+    <!-- Below: Used in root_preferences.xml, not used by this app... but gradle seems to mind -->
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

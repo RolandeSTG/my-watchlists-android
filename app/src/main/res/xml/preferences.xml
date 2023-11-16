@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/watchlist_api_cat_title">
+        <EditTextPreference
+            android:key="@string/watchlist_api_ip_key"
+            android:defaultValue="@string/watchlist_api_ip_default"
+            android:title="@string/ip_address_title"
+            android:summary="Watchlist Service IP address"
+            android:dialogTitle="@string/watchlist_ip_address_dialog_title"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            android:key="@string/watchlist_api_port_key"
+            android:defaultValue="@string/watchlist_api_port_default"
+            android:title="@string/port_title"
+            android:summary="Watchlist Service Port"
+            android:dialogTitle="@string/watchlist_port_dialog_title"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/quote_api_cat_title">
+        <EditTextPreference
+            android:key="@string/quote_api_ip_key"
+            android:defaultValue="@string/quote_api_ip_default"
+            android:title="@string/ip_address_title"
+            android:summary="Quote Service IP address"
+            android:dialogTitle="@string/quote_ip_address_dialog_title"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            android:key="@string/quote_api_port_key"
+            android:defaultValue="@string/quote_api_port_default"
+            android:title="@string/port_title"
+            android:summary="Quote Service Port"
+            android:dialogTitle="@string/quote_port_dialog_title"
+            app:useSimpleSummaryProvider="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
