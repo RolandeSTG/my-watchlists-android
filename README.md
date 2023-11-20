@@ -22,9 +22,10 @@ Finally, user may configure the location of the services using the app's `settin
 This app makes use of all endpoints defined by the two services' API.
    
 ### Demo & Screenshots
-- Watch: [Live Demo](https://github.com/RolandeSTG/my-watchlists-android/assets/112976983/8e229100-740c-4dd9-bb5d-4c2c04e9253d)
+- Watch: [Live Demo](https://github.com/RolandeSTG/my-watchlists-android/assets/112976983/ceb3b2be-dd5c-4cbf-97c3-712367f8c34a)
 
 - Sample Screenshots: 
+
 <!--
   1. [Get watchlists](assets/1_get_watchlists.png)
   1. [Get watchlist\' securities](assets/2_get_watchlist_securities.png)
