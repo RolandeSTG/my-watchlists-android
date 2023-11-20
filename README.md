@@ -19,10 +19,13 @@ delete symbols (securities) from the watchlist while quotes are being updated.
 
 Finally, user may configure the location of the services using the app's `settings` activity.
 
+
+
+
 This app makes use of all endpoints defined by the two services' API.
    
 ### Demo & Screenshots
-- Watch: [Live Demo](https://github.com/RolandeSTG/my-watchlists-android/assets/112976983/99794db4-97d5-4aa4-adb4-aa18043f13dd)
+- Watch: [Live Demo](https://github.com/RolandeSTG/my-watchlists-android/assets/112976983/c9147601-1b15-45ac-bf5d-877ca6a1fe92)
 
 - Sample Screenshots: 
 <!--
